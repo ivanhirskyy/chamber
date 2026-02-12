@@ -15,20 +15,6 @@ Chamber uses a two-process architecture:
 
 Communication happens via MessageChannel API for type-safe, bi-directional messaging.
 
-```
-┌─────────────────────┐
-│  Lab (localhost:5173)  │
-│  - React UI          │
-│  - Controls Panel    │
-└──────────┬──────────┘
-           │ MessageChannel
-┌──────────▼──────────┐
-│ Stage (localhost:5174) │
-│  - Iframe + Shadow DOM │
-│  - Component Renderer  │
-└─────────────────────┘
-```
-
 ## Project Structure
 
 ```

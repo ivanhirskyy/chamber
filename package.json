@@ -1,0 +1,20 @@
+{
+  "name": "chamber",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Architectural Framework-Agnostic UI Lab",
+  "type": "module",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md,json}\"",
+    "clean": "turbo run clean && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "turbo": "^2.8.7",
+    "prettier": "^3.8.1",
+    "typescript": "^5.9.3"
+  },
+  "packageManager": "pnpm@10.26.0"
+}
